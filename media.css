@@ -1,0 +1,42 @@
+/* メインコンテンツ配置 */
+.main-content {
+    display: flex;
+    flex-direction: column; /* 縦並び */
+    align-items: center; /* 横方向中央揃え */
+    justify-content: center; /* 縦方向中央揃え */
+    padding: 40px 20px;
+    text-align: center;
+    gap: 20px; /* 各要素の間のスペース */
+}
+
+/* 画像のスタイリング */
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px; /* 下にスペースを追加 */
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* 角丸 */
+    object-fit: cover; /* 画像を枠内にフィット */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 画像に影効果 */
+}
+
+/* 文字スタイリング */
+.text-content {
+    margin-bottom: 20px; /* 画像との間にスペース */
+}
+
+.text-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.text-content p {
+    font-family: 'Aktiv Grotesk', sans-serif;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
