@@ -2,12 +2,6 @@
 @use 'variables' as *;
 @use 'mixin' as *;
 
-html{
-    scroll-behavior: smoth;
-}
-
-
-
 body{
     color: $textColor1;
     font-family: $caslon, $serif, $sans, serif;
